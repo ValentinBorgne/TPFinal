@@ -1,0 +1,44 @@
+#bandeau{
+    text-align: center;
+    background-color : black;
+    height : 4%;
+    width : 100%;
+}
+
+
+.hyperlien2 {
+    padding: 0;
+    width: 100%;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .stylelien {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 11%;
+    margin-right: 0%;
+    text-align: center;
+    line-height: 4;
+    color: black;
+  }
+  
+  li:last-child a {
+    margin-right: 0;
+  }
+  
+  .stylelien:link, .stylelien:visited, .stylelien:focus {
+    background: Grey;
+  }
+  
+  .stylelien:hover {
+    background: red;
+  }
+  
+  .stylelien:active {
+    background: red;
+    color: white;
+  }
