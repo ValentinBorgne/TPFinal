@@ -1,7 +1,6 @@
 #bandeau{
     text-align: center;
     background-color : black;
-    height : 4%;
     width : 100%;
 }
 
@@ -42,3 +41,17 @@
     background: red;
     color: white;
   }
+
+#Image1 {
+    float:right;
+}
+#texte1{
+text-align: center;  
+}
+#Image2 {
+  float:left;
+}
+.CorpsActeur{
+  height:200px;
+
+}
