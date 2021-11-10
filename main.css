@@ -46,7 +46,9 @@
     float:right;
 }
 #texte1{
-text-align: center;  
+font-family : Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+text-align: center; 
+ 
 }
 #Image2 {
   float:left;
@@ -54,4 +56,26 @@ text-align: center;
 .CorpsActeur{
   height:200px;
 
+}
+.CorpsActeur2{
+  height:273px
+
+}
+.Synopsis{
+  font-family : Century Gothic;
+  text-align: left;
+  width:33%;
+  float:left;
+}
+.Synopsis2{
+  font-family : Century Gothic;
+  text-align: right;
+  width:33%;
+  float :right;
+}
+.img{
+  height:274px;
+  width:184px;
+  margin-left: auto;
+  margin-right: auto;
 }
