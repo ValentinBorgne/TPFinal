@@ -10,7 +10,7 @@
     width: 100%;
   }
   
-  li {
+  li.entete {
     display: inline;
   }
   
@@ -25,7 +25,7 @@
     color: black;
   }
   
-  li:last-child a {
+  li.entete:last-child a {
     margin-right: 0;
   }
   
@@ -79,3 +79,10 @@ text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+.texte{
+  width : 70%;float : left;padding-left : 20px
+}
+div.photo{float : right}
+li.cv{width:100%}
+li.cv2{width : 100% ; outline : none}
+ul.cv2{list-style-type: none;}
